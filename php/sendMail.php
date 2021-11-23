@@ -8,10 +8,10 @@ if(!isset($_SESSION['send']) || empty($_SESSION["token"]) || !isset($_SESSION["t
 
 try {
   //ホスト（さくらのレンタルサーバの初期ドメイン）
-  $host = '';
+  $host = ''; //個人情報保護のため空白
   //メールアカウントの情報（さくらのレンタルサーバで作成したメールアカウント）
-  $user = '';
-  $password = '';
+  $user = ''; //個人情報保護のため空白
+  $password = ''; //個人情報保護のため空白
   //差出人
   $from = 'takuyaokuda@takuyaokuda.sakura.ne.jp';
   $from_name = '奥田 拓也（自動返信システム）';
