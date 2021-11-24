@@ -21,7 +21,7 @@ body{
 
 a{
   text-decoration: none;
-  color: white;
+  
 }
 
 .title { /* 各項目タイトル */
@@ -51,7 +51,7 @@ h3{
 }
 
 p{
- font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 img{
@@ -106,6 +106,7 @@ img{
 .header-logo a {
   font-size: 1.5rem;
   font-weight: bold;
+  color: white;
 }
 
 .nav-item a {
@@ -113,6 +114,7 @@ img{
 	position: relative;
   font-size: 1.5rem;
   font-weight: bold;
+  color: white;
 }
 
 .nav-item a::after {
@@ -203,6 +205,13 @@ img{
   text-align: center;
 }
 
+.source-text {
+  font-size: 1.2rem;
+  color: rgb(34, 34, 34);
+  text-align: center;
+  vertical-align: top;
+}
+
 #hidden {
   visibility:hidden;
 }
@@ -222,7 +231,7 @@ img{
 }
 
 .skill-item {
-  width: 50rem;
+  width: 500px;
   display: flex;
   padding-right: 30px;
 }
