@@ -278,6 +278,7 @@ function h($str) {
     <h2 class="title fade-in">CONTACT</h2>
     <p class="fade-in">お問い合わせはフォームからお願い致します。</p>
     <p class="contact-check fade-in">すべて入力必須項目です。</p>
+    <p class="contact-check fade-in">お問い合わせ内容は500字以内とします。</p>
     <form action="#contact" method="POST" class="contactForm fade-in">
       <table>
         <tbody>
@@ -302,7 +303,7 @@ function h($str) {
           <tr>
             <th>お問い合わせ内容</th>
             <td>
-              <textarea rows="6" cols="60" name="message"><?php if(isset($_POST['email'])) {echo h($_POST['message']);} ?></textarea>
+              <textarea rows="6" cols="60" name="message" maxlength="500"><?php if(isset($_POST['email'])) {echo h($_POST['message']);} ?></textarea>
               <?php if(isset($error['message']) && $error['message'] == 'blank'): ?>
                 <p class="error">* この項目は必須項目です。</p>
               <?php endif; ?>
