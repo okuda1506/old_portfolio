@@ -87,46 +87,76 @@ function h($str) {
     <h2 class="title fade-in">WORKS</h2>
     <div class="works-list">
       <div class="works-outline" id="row-space">
-        <a class="works-item fade-in" href="works/cresta/cresta.html" target="_blank" rel="noopener noreferrer">
-          <div class="works-img">
-            <img src="img/CrestaDesign.png">
-          </div>
-          <p class="works-name">架空デザインサイト(HTML, CSS)</p>
-        </a>
-        <a class="works-item fade-in" href="works/wcb/wcb.html" target="_blank" rel="noopener noreferrer">
-          <div class="works-img">
-            <img src="img/WCB-CAFE.png">
-          </div>
-          <p class="works-name">架空カフェサイト(HTML, CSS)</p>
-        </a>
+        <div class="works-item fade-in">
+          <a href="works/cresta/cresta.html" target="_blank" rel="noopener noreferrer">
+            <div class="works-img">
+              <img src="img/CrestaDesign.png">
+            </div>
+            <p class="works-name">架空デザインサイト(HTML, CSS)</p>
+          </a>
+          <a class="source" href="https://github.com/okuda1506/portfolio/tree/main/works/cresta" target="_blank" rel="noopener noreferrer">
+            <p class="source-text">ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14px" height="14px"/></p>
+          </a>
+        </div>
+        <div class="works-item fade-in">
+          <a href="works/wcb/wcb.html" target="_blank" rel="noopener noreferrer">
+            <div class="works-img">
+              <img src="img/WCB-CAFE.png">
+            </div>
+            <p class="works-name">架空カフェサイト(HTML, CSS)</p>
+          </a>
+          <a class="source" href="https://github.com/okuda1506/portfolio/tree/main/works/wcb" target="_blank" rel="noopener noreferrer">
+            <p class="source-text">ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14px" height="14px"/></p>
+          </a>
+        </div>
       </div>
       <div class="works-outline" id="row-space">
-          <a class="works-item fade-in" href="works/corporate/corporate.html" target="_blank" rel="noopener noreferrer">
+        <div class="works-item fade-in">
+          <a href="works/corporate/corporate.html" target="_blank" rel="noopener noreferrer">
             <div class="works-img">
               <img src="img/corporate.png">
             </div>
             <p class="works-name">架空コーポレートサイト(HTML, CSS, JavaScript)</p>   
           </a>
-        <a class="works-item fade-in" href="works/bulletinBoard/post/index.php" target="_blank" rel="noopener noreferrer">
-          <div class="works-img">
-            <img src="img/bulletinboard.png">
-          </div>
-          <p class="works-name">ひとこと掲示板サイト(PHP, MySQL)</p>
-        </a>
+          <a class="source" href="https://github.com/okuda1506/portfolio/tree/main/works/corporate" target="_blank" rel="noopener noreferrer">
+            <p class="source-text">ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14px" height="14px"/></p>
+          </a>
+        </div>
+        <div class="works-item fade-in">
+          <a href="works/bulletinBoard/post/index.php" target="_blank" rel="noopener noreferrer">
+            <div class="works-img">
+              <img src="img/bulletinboard.png">
+            </div>
+            <p class="works-name">ひとこと掲示板サイト(PHP, MySQL)</p>
+          </a>
+          <a class="source" href="https://github.com/okuda1506/portfolio/tree/main/works/bulletinBoard" target="_blank" rel="noopener noreferrer">
+            <p class="source-text">ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14px" height="14px"/></p>
+          </a>
+        </div>
       </div>
       <div class="works-outline">
-          <a class="works-item fade-in" href="index.php" target="_blank" rel="noopener noreferrer">
+        <div class="works-item fade-in">
+          <a href="index.php" target="_blank" rel="noopener noreferrer">
             <div class="works-img">
               <img src="img/portfolio.png">
             </div>
             <p class="works-name">ポートフォリオ(PHP, jQuery)</p>   
           </a>
-          <a class="works-item" href="index.php" target="_blank" rel="noopener noreferrer" id="hidden">
+          <a class="source" href="https://github.com/okuda1506/portfolio" target="_blank" rel="noopener noreferrer">
+            <p class="source-text">ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14px" height="14px"/></p>
+          </a>
+        </div>
+        <div class="works-item fade-in" id="hidden">
+          <a class="works-item" href="index.php" target="_blank" rel="noopener noreferrer">
             <div class="works-img">
               <img src="img/portfolio.png">
             </div>
-            <p class="works-name">ポートフォリオ(PHP, jQuery)</p>   
+            <p class="works-name"></p>   
           </a>
+          <a class="source" href="https://github.com/okuda1506/portfolio">
+            <p class="source-text">ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="14px" height="14px"/></p>
+          </a>
+        </div>
       </div>
     </div>
   </div>
