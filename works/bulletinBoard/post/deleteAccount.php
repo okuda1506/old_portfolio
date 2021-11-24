@@ -54,7 +54,7 @@ setcookie('password', '', time() - 3600);
   </div>
   <div id="content">
     <p>ご利用ありがとうございました</p>
-    <p><a href="join/index.php">トップへ</a></p>
+    <p><a href="index.php">トップへ</a></p>
   </div>
 
 </div>

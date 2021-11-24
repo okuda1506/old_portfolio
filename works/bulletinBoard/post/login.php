@@ -92,6 +92,8 @@ function h($value) {
           </dd>
         </dl>
         <div><input type="submit" value="ログインする"></div>
+        <br>
+        <p><a href="top.html">トップへ戻る</a></p>
       </form>
     </div>
   </div>

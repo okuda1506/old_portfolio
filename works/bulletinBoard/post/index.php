@@ -15,7 +15,7 @@ if(isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()) {      //idが�
   $member = $members->fetch();                                 // ログインした人の情報（レコード）を$member変数に代入
 }else {
   // ログインしていない
-  header('Location: login.php'); 
+  header('Location: top.html'); 
   exit();
 }
 
