@@ -69,7 +69,6 @@ h1{
   line-height: 30px;
 }
 
-
 /* HEADER
 ------------------------------ */
 .main-nav{
@@ -87,6 +86,9 @@ h1{
 }
 
 header{
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #1B1310;
   border-bottom-style: solid;
   border-bottom-color: #FFFFFF;
@@ -108,7 +110,7 @@ header{
   background-position: center top;
   background-repeat: no-repeat;
   background-image: url(img/fv-bgi@2x.jpg);
-  min-height: 740px;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,6 +128,10 @@ header{
   margin-top: 100px;
 }
 
+#About{
+  padding-top: 100px;
+}
+
 .about .menu-title{
   margin-bottom: 72px;
 }
@@ -135,6 +141,10 @@ header{
 }
 
 /* SERVICE */
+#Service{
+  padding-top: 100px;
+}
+
 .service-info1{
   padding-left: 70px;
 } 
@@ -157,6 +167,10 @@ header{
 }
 
 /* NEWS */
+#News{
+  padding-top: 100px;
+}
+
 .news .menu-title{
   margin-bottom: 70px;
 }
@@ -195,6 +209,10 @@ header{
 }
 
 /* お問い合わせ */
+#Contact{
+  padding-top: 100px;
+}
+
 .question{
   width: 700px;
 }
@@ -403,10 +421,6 @@ footer small{
   }
 
   /*HEADER続き*/  
- .big-bg{
-    min-height: 590px;
-  }
-  
   .title h1{
     font-size: 30px;
     border-style: solid;
