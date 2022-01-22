@@ -2,25 +2,26 @@
 
 /* 共通部分
 ---------------------------- */
-html {
+html{
   font-size: 62.5%;  /*←1rem = 10px*/
   background-color: rgb(255, 255, 255);
 }
 
-body {
+body{
   line-height: 1.9;
   font-family: "Optima", sans-serif;
   color: rgb(34, 34, 34);
 }
 
-.wrapper , .inner {
+.wrapper , .inner{
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 3%;
 }
 
-a {
+a{
   text-decoration: none;
+  
 }
 
 .title { /* 各項目タイトル */
@@ -45,15 +46,15 @@ a {
   background: rgb(189, 189, 189);
 }
 
-h3 {
+h3{
   font-size: 2.5rem;
 }
 
-p {
+p{
   font-size: 1.4rem;
 }
 
-img {
+img{
   max-width: 100%;
 }
 
@@ -577,10 +578,6 @@ input, textarea {
   .works-item {
     text-align: center;
     padding: 20px;
-  }
-
-  #hidden {
-    display:none;
   }
 
   /* skill ---- */
