@@ -13,10 +13,10 @@ $mail = new PHPMailer(true);
 
 try {
   //ホスト（さくらのレンタルサーバの初期ドメイン）
-  $host = 'takuyaokuda.sakura.ne.jp';
+  $host = '';
   //メールアカウントの情報（さくらのレンタルサーバで作成したメールアカウント）
-  $user = 'takuyaokuda@takuyaokuda.sakura.ne.jp';
-  $password = 'takuya56';
+  $user = '';
+  $password = '';
   //差出人
   $from = 'takuyaokuda@takuyaokuda.sakura.ne.jp';
   $from_name = '奥田 拓也（自動返信システム）';
